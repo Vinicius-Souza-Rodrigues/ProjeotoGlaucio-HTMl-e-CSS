@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(33, 39, 43);
+}
+main {
+    height: 175vh;
+    margin: 0px 20px 0px 35px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 35px 0px 20px;
+
+}
+.icone {
+    margin: 0px 0px 0px 20px;
+}
+.titulo {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+}
+.opcoes {
+    display: flex;
+    align-items: center;
+}
+.opcoes ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menus {
+    margin: 20px 23px 0px 25px;
+}
+.menus a {
+    color: white;
+    text-decoration: none;
+}
+.menus a:hover{
+    color: rgba(27, 160, 205);
+}
+.nome {
+    color: rgba(27, 160, 205);
+    font-size: 28px;
+}
+.nome1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+
+/*Section*/
+.foto {
+    background-image: url(barcoprincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.contato {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 450px;
+    background-color: rgba(33, 39, 43, 0.966); 
+    border-radius: 2px;
+    position: absolute;
+    right: 110px;
+    bottom: 135px;
+}
+.texto {
+    font-size: 25px;
+    color: rgb(228, 223, 223);
+}
+.titulo2 {
+    color: rgb(228, 223, 223);
+    font-size: 30px;
+    list-style-type: none;
+}
+.telefone {
+    cursor: pointer;
+    color: rgb(198, 176, 127);
+    
+}
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.retrato1 {
+    margin: 5px 10px 0px 0px;
+}
+.retrato2 {
+    margin: 5px 0px 0px 10px;
+}
+.corpo-titulo {
+    background-color: rgb(2, 180, 232);
+}
+.corpo-titulo1 {
+    background-color: rgb(198, 176, 127);
+}
+.corpo-titulo h2{
+    color: rgb(228, 223, 223);
+    padding: 5px;
+    height: 40px;
+}
+.corpo-titulo1 h2{
+    color: rgb(228, 223, 223);
+    padding: 5px;
+    height: 40px;
+}
+.corpo-enredo1 {
+    padding: 15px;
+}
+.corpo-enredo p{
+    margin: 18px 0px 45px 0px;
+}
+.corpo-enredo {
+    padding: 15px;
+}
+.corpo-enredo1 p{
+    padding: 18px 0px 18px 0px;
+}
+footer {
+    background-color: rgb(212, 211, 211);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+
